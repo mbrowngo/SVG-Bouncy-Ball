@@ -1,0 +1,38 @@
+body{
+	margin:0;
+	overflow:hidden;
+}
+
+#controlarea {
+	position:absolute;
+	float:right;
+	width:250px;
+	padding:0 10px 10px 10px;
+	text-align:right;
+	margin-top:-290px;
+	margin-right:15px;
+	border:1px solid black;
+	background-color:white;
+	z-index:1000;
+	background: rgba(255,255,255,0.6);}
+
+#controlarea p{
+	text-align:left;
+}
+
+#red, #green, #blue, #ballsize{
+float: left;
+clear: left;
+width: 200px;
+margin: 15px;
+}
+
+#ballsize .ui-slider-range { background: #eee; }
+#ballsize .ui-slider-handle { border-color: #333; }
+
+#red .ui-slider-range { background: #ef2929; }
+#red .ui-slider-handle { border-color: #ef2929; }
+#green .ui-slider-range { background: #8ae234; }
+#green .ui-slider-handle { border-color: #8ae234; }
+#blue .ui-slider-range { background: #729fcf; }
+#blue .ui-slider-handle { border-color: #729fcf; }
